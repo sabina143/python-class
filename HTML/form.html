@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+</head>
+
+<!--class, id=>multiple elements can have same class but not same id-->
+<body>
+<h1>HTML Form</h1>
+
+<form action="#" method="get">
+
+    <!--text-->
+    <label for="first name">First Name</label> <br>
+
+    <input id ="first name" type="text" name ="first name"placeholder="enter first name"required><br><br>
+
+    <label for="last name">Last Name</label> <br>
+    <input type ="text" id="lastname" name="lastname"placeholder="enter last name"value="sharma"required readonly> 
+    <br><br>
+    <!--Radio-->
+    <label for="">Gender</label><br>
+    <input type="radio" name="gender"value="male" checked>male<br>
+    <input type="radio" name="gender"value="female">female<br>
+    <input type="radio" name="gender"value="other">other
+    <br><br>
+
+    <!--drop down list-->
+    <label for="">Course</label><br>
+    <select name="course"multiple>
+        <option value="python">Python</option>
+        <option value="cybersecurity">Cyber Security</option>
+        <option value="django">Django</option>
+    </select>
+
+    <br><br>
+    <label for="bio"></label>
+    <textarea name="bio" cols="25" rows="5">This is bio..</textarea>
+
+    <br><br>
+    <label for="">Color</label>
+    <input type="color">
+
+    <br><br>
+    <lable for="">Email</label>
+    <input type="email">
+
+    <br><br>
+    <label for ="">Password</label>
+    <input type="password">
+    <br><br>
+    Quantity
+    <input type="number" min="0" max="10" step="0.5">
+
+
+
+    <br><br>
+
+
+    <input type ="submit" value ="Submit">
+    <button type ="submit">SUBMIT</button>
+
+</form>
+</body>
+</html>

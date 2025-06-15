@@ -1,0 +1,24 @@
+ h1, h3,h5{
+            color:gold
+        }
+        h2,h4,h6{
+            color:green
+        }
+        body{
+            
+            font-family: 'Courier New', Courier, monospace;
+            background-color: bisque;
+            background-image:url("images/Avengers-2-Age-of-Ultron-Logo-Wallpaper-HD.jpg");
+            background-repeat:round;
+            background-position: right top;
+            background-attachment: fixed;
+            background: size 512px;
+
+            /* background:bisque url('image-ia-exemple-978410444.png')no-repeat right top; */
+        }
+        #first-heading{
+            color:purple;
+        }
+        .blue-color{
+       color:blue;
+        }
