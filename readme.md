@@ -6,3 +6,4 @@
 4. c++
 5. MySQL
 6. DJANGO
+7. OOP
